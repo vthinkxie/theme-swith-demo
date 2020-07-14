@@ -28,8 +28,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              {
+                "input": "src/styles/default.less",
+                "bundleName": "default"
+              },
+              {
+                "input": "src/styles/dark.less",
+                "bundleName": "dark"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles/theme"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
