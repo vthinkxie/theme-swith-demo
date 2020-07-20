@@ -31,11 +31,13 @@
               "src/styles.less",
               {
                 "input": "src/styles/default.less",
-                "bundleName": "default"
+                "bundleName": "default",
+                "lazy": true
               },
               {
                 "input": "src/styles/dark.less",
-                "bundleName": "dark"
+                "bundleName": "dark",
+                "lazy": true
               }
             ],
             "stylePreprocessorOptions": {

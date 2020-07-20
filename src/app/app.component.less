@@ -1,14 +1,15 @@
-@import "mixin";
+@import 'mixin';
 
 .themeMixin({
-  :host{
+  :host {
     display: block;
     background: @background-color-base;
-    color: @heading-color;
-    div{
-      background: @component-background;
-      height: 200px;
-      width: 200px;
+    height: 100%;
+    nz-layout {
+      height: 100%;
+    }
+    .content{
+      color: @heading-color;
     }
   }
 });
